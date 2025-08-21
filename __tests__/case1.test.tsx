@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react'
 import Page from '@/app/page'
 import RootLayout from '@/app/layout'
 import Banner from '@/components/Banner'
-import TopMenu from '@/components/TopMenu'
+import TopMenu from "@/components/TopMenu";
 import Card from '@/components/Card'
 
 jest.mock('../src/components/Banner')
