@@ -8,9 +8,9 @@ interface TopMenuItemProps {
 
 export default function TopMenuItem({ href, text }: TopMenuItemProps) {
   return (
-    <Link
-      href={href}
-    >
+    <Link href={href}
+      className="font-bold text-gray-800 no-underline hover:text-blue-600 transition-colors z-20"
+      >
       {text}
     </Link>
   );
